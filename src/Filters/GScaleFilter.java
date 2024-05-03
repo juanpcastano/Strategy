@@ -1,6 +1,6 @@
 package Filters;
 
-public class GEscaleFilter implements ImageFilter{
+public class GScaleFilter implements ImageFilter{
     @Override
     public void applyfilter(String Image) {
         System.out.println("Aplicando filtro de escala de grises");

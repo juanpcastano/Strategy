@@ -1,4 +1,4 @@
-import Filters.GEscaleFilter;
+import Filters.GScaleFilter;
 import Filters.HContrastFilter;
 import Filters.SepiaFilter;
 import Procesors.ImageProcessor;
@@ -8,11 +8,11 @@ public class Main {
 
 
         ImageProcessor processor = new ImageProcessor();
-        processor.setFilter(new GEscaleFilter());
-        processor.applyfilter("soy una imagen de ejemplo");
+        processor.setFilter(new GScaleFilter());
+        processor.executefilter("soy una imagen de ejemplo");
         processor.setFilter(new HContrastFilter());
-        processor.applyfilter("soy una imagen de ejemplo");
+        processor.executefilter("soy una imagen de ejemplo");
         processor.setFilter(new SepiaFilter());
-        processor.applyfilter("soy una imagen de ejemplo");
+        processor.executefilter("soy una imagen de ejemplo");
     }
 }

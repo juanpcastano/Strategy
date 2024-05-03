@@ -9,7 +9,7 @@ public class ImageProcessor {
         this.filter = filter;
     }
 
-    public void applyfilter(String Image){
+    public void executefilter(String Image){
         if(filter == null){
             System.out.println("No hay filtro seleccionado");
         }
